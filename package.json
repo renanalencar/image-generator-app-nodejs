@@ -1,0 +1,28 @@
+{
+  "name": "image-generator-app",
+  "version": "1.0.0",
+  "description": "A simple application on how to manage text completions with Azure OpenAI in Typescript",
+  "main": "main.js",
+  "scripts": {
+    "build": "rimraf build && tsc",
+    "preserve": "npm run build",
+    "start": "npm run build && cross-env NODE_ENV=development concurrently \"nodemon\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.11.17",
+    "concurrently": "^8.2.2",
+    "nodemon": "^3.0.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@azure/openai": "^1.0.0-beta.11",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.4.3",
+    "rimraf": "^5.0.5"
+  }
+}
