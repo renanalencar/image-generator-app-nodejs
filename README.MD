@@ -1,6 +1,6 @@
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 
-# React Native Track: NLW Expert
+# Simple Image Generator App
 
 Simple Image Generator App is a simplistic yet powerful image generator tool developed using Node.js and TypeScript. It interfaces directly with Azure's OpenAI Service to leverage the DALL-E model's capabilities, enabling users to generate complex images from textual descriptions.
 
