@@ -4,7 +4,7 @@
 
 Simple Image Generator App is a simplistic yet powerful image generator tool developed using Node.js and TypeScript. It interfaces directly with Azure's OpenAI Service to leverage the DALL-E model's capabilities, enabling users to generate complex images from textual descriptions.
 
-This project was developed during the Webnair conducted by Glaucia Lemos and promoted by DIO.
+This project was developed during the Webinar conducted by Glaucia Lemos and promoted by DIO.
 ## Authors
 
 - [@renanalencar](https://www.github.com/renanalencar)
